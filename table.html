@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live scores</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+</head>
+<body>
+    <header>
+        <div class="head_1 layout_1">
+            <span class="logo">liveFb</span>
+            <span class="search_in">
+                <input type="text" placeholder="seach live football" class="search">
+            </span>
+            <span class="toggle_menu">MENU</span>
+        </div>
+
+
+        <div class="head_2 menu">
+            <ul class="nav" id="navs">
+                <li class="nav_list"><a href="index.html" class="active nav_link navs_1"><i class='bx bx-home-alt'></i></a></li>
+                <li class="nav_list"><a href="table.html" class="nav_link navs_2"><i class='bx bx-table' ></i></a></li>
+                <li class="nav_list"><a href="#" class="nav_link navs_3"><i class='bx bx-list-check'></i></a></li>
+                <li class="nav_list"><a href="live.html" class="nav_link navs_4"><i class='bx bx-tv' ></i></a></li>
+            </ul>
+        </div>
+        <div class="head_3">
+            <ul class="head_3-ul">
+                <li><a class="head_3-link click-note" href="#"><i class='bx bx-bell' ></i></a></li>
+                <li><a class="head_3-link click-chat" href="#"><i class='bx bx-conversation' ></i></a></li>
+                <li><a class="head_3-link click-group" href="#"><i class='bx bx-group' ></i></a></li>
+                <li><a class="head_3-link toggle-modal" href="#"><i class='bx bx-chevron-down' ></i></a>
+                    <div class="modal">
+                        <ul>
+                            <li><a href="#">Username</a></li>
+                            <li><a href="#">Friends</a></li>
+                            <li><a href="#">Groups</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="container grid_3">
+        <section class="left_sidebar">
+            <ul class="sidebar_ul">
+                <li><a href="#"> username</a></li>
+                <li><a href="#"> <img src="img/friends.png" alt=""> Friends</a></li>
+                <li><a href="#"> <img src="img/family.png" alt=""> Groups</a></li>
+                <li><a href="#"><img src="img/bet.png" alt=""> Transfer Deals</a></li>
+                <li><a href="#"><img src="img/streaming-tv-app.png" alt=""> watch</a></li>
+                <li><a href="#"><img src="img/save-instagram.png" alt=""> saved</a></li>
+                <li><a href="#"><img src="img/schedule.png" alt=""> memories</a></li>
+                <li><a href="#"><img src="img/flag.png" alt=""> most recent</a></li>
+            </ul>
+
+            <span class="footer">
+                <ul>
+                    <li><a href="#">privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Ad Choices</a></li>
+                    <li><a href="#">Ad Cookies</a></li>
+                    <li><a href="#">More</a></li>
+                    <li><a href="#">copyright &copy; 2022</a></li>
+                </ul>
+            </span>
+        </section>
+        <section class="main_content">
+
+            <!-- -------------main content navigation list ----------- -->
+            <div class="main_content-nav">
+                <ul class="content-nav">
+                    <li class="content_list"><a href="#" class="content_link">Spanish league</a></li>
+                    <li class="content_list"><a href="#" class="content_link">Champions League</a></li>
+                    <li class="content_list"><a href="#" class="content_link">Premiere League</a></li>
+                    <li class="content_list"><a href="#" class="content_link">Afcon</a></li>
+                    <li class="content_list"><a href="#" class="content_link">World Cup</a></li>
+                </ul>
+            </div>
+
+            <!-- ----- livesccore Header --------- -->
+            <div class="table-header"><h1>UEFA Champions League Table</h1></div>
+
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>S/N</th>
+                        <th>Teams</th>
+                        <th>Pts</th>
+                        <th>W</th>
+                        <th>L</th>
+                        <th>D</th>
+                        <th>GS</th>
+                        <th>GC</th>
+                        <th>G</th>
+                    </tr>
+
+                    <tr>
+                        <th>1</th>
+                        <td>manchester</td>
+                        <td>23</td>
+                        <td>23</td>
+                        <td>23</td>
+                        <td>23</td>
+                        <td>23</td>
+                        <td>23</td>
+                        <td>23</td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td>chelsea</td>
+                        <td>53</td>
+                        <td>23</td>
+                        <td>23</td>
+                        <td>23</td>
+                        <td>23</td>
+                        <td>23</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td>barcelona</td>
+                        <td>45</td>
+                        <td>23</td>
+                        <td>94</td>
+                        <td>24</td>
+                        <td>21</td>
+                        <td>3</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <td>barcelona</td>
+                        <td>45</td>
+                        <td>23</td>
+                        <td>94</td>
+                        <td>24</td>
+                        <td>21</td>
+                        <td>3</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <td>barcelona</td>
+                        <td>45</td>
+                        <td>23</td>
+                        <td>94</td>
+                        <td>24</td>
+                        <td>21</td>
+                        <td>3</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <th>6</th>
+                        <td>barcelona</td>
+                        <td>45</td>
+                        <td>23</td>
+                        <td>94</td>
+                        <td>24</td>
+                        <td>21</td>
+                        <td>3</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <th>7</th>
+                        <td>barcelona</td>
+                        <td>45</td>
+                        <td>23</td>
+                        <td>94</td>
+                        <td>24</td>
+                        <td>21</td>
+                        <td>3</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <th>8</th>
+                        <td>barcelona</td>
+                        <td>45</td>
+                        <td>23</td>
+                        <td>94</td>
+                        <td>24</td>
+                        <td>21</td>
+                        <td>3</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <th>9</th>
+                        <td>barcelona</td>
+                        <td>45</td>
+                        <td>23</td>
+                        <td>94</td>
+                        <td>24</td>
+                        <td>21</td>
+                        <td>3</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <th>10</th>
+                        <td>barcelona</td>
+                        <td>45</td>
+                        <td>23</td>
+                        <td>94</td>
+                        <td>24</td>
+                        <td>21</td>
+                        <td>3</td>
+                        <td>2</td>
+                    </tr>
+                </table>
+            </div>
+
+        
+            
+
+        </section>
+
+        <section class="right_sidebar">
+            <div class="all_notification hidden" id="all-note">
+                <h2>Notifications</h2>
+                <div class="notes">
+                    <span class="source">from live matches</span>
+                    <p class="note-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt laboriosam a eos aut nam deserunt earum quas officiis vero sit delectus, provident impedit, molestiae libero velit nulla commodi praesentium expedita?
+                    </p>
+                </div>
+                <div class="notes">
+                    <span class="source">from live matches</span>
+                    <p class="note-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt laboriosam a eos aut nam deserunt earum quas officiis vero sit delectus, provident impedit, molestiae libero velit nulla commodi praesentium expedita?
+                    </p>
+                </div>
+                <div class="notes">
+                    <span class="source">from live matches</span>
+                    <p class="note-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt laboriosam a eos aut nam deserunt earum quas officiis vero sit delectus, provident impedit, molestiae libero velit nulla commodi praesentium expedita?
+                    </p>
+                </div>
+                <div class="notes">
+                    <span class="source">from live matches</span>
+                    <p class="note-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt laboriosam a eos aut nam deserunt earum quas officiis vero sit delectus, provident impedit, molestiae libero velit nulla commodi praesentium expedita?
+                    </p>
+                </div>
+                <div class="notes">
+                    <span class="source">from live matches</span>
+                    <p class="note-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt laboriosam a eos aut nam deserunt earum quas officiis vero sit delectus, provident impedit, molestiae libero velit nulla commodi praesentium expedita?
+                    </p>
+                </div>
+            </div>
+            <div class="all_chat hidden" id="all-chat">
+                <h2>My Friends</h2>
+                <div class="friend layout_1">
+                    <span class="f_dp">
+                        <img src="img/FB_IMG_16345763830787095~3.jpg" alt="">
+                    </span>
+                    <span class="f_name">Beeba Oyiza</span>
+                </div>
+                <div class="friend layout_1">
+                    <span class="f_dp">
+                        <img src="img/FB_IMG_16345763830787095~3.jpg" alt="">
+                    </span>
+                    <span class="f_name">Beeba Oyiza</span>
+                </div>
+                <div class="friend layout_1">
+                    <span class="f_dp">
+                        <img src="img/FB_IMG_16345763830787095~3.jpg" alt="">
+                    </span>
+                    <span class="f_name">Beeba Oyiza</span>
+                </div>
+                <div class="friend layout_1">
+                    <span class="f_dp">
+                        <img src="img/FB_IMG_16345763830787095~3.jpg" alt="">
+                    </span>
+                    <span class="f_name">Beeba Oyiza</span>
+                </div>
+                <div class="friend layout_1">
+                    <span class="f_dp">
+                        <img src="img/FB_IMG_16345763830787095~3.jpg" alt="">
+                    </span>
+                    <span class="f_name">Beeba Oyiza</span>
+                </div>
+                <div class="friend layout_1">
+                    <span class="f_dp">
+                        <img src="img/FB_IMG_16345763830787095~3.jpg" alt="">
+                    </span>
+                    <span class="f_name">Beeba Oyiza</span>
+                </div>
+                <div class="friend layout_1">
+                    <span class="f_dp">
+                        <img src="img/FB_IMG_16345763830787095~3.jpg" alt="">
+                    </span>
+                    <span class="f_name">Beeba Oyiza</span>
+                </div>
+                <div class="friend layout_1">
+                    <span class="f_dp">
+                        <img src="img/FB_IMG_16345763830787095~3.jpg" alt="">
+                    </span>
+                    <span class="f_name">Beeba Oyiza</span>
+                </div>
+                <div class="friend layout_1">
+                    <span class="f_dp">
+                        <img src="img/FB_IMG_16345763830787095~3.jpg" alt="">
+                    </span>
+                    <span class="f_name">Beeba Oyiza</span>
+                </div>
+                <div class="friend layout_1">
+                    <span class="f_dp">
+                        <img src="img/FB_IMG_16345763830787095~3.jpg" alt="">
+                    </span>
+                    <span class="f_name">Beeba Oyiza</span>
+                </div>
+            </div>
+            <div class="all_group hidden" id="all-group">
+                <h2>My Groups</h2>
+                <div class="friend layout_1">
+                    <span class="f_dp">
+                        <img src="img/FB_IMG_16345763830787095~3.jpg" alt="">
+                    </span>
+                    <span class="f_name">Beeba Oyiza</span>
+                </div>
+                <div class="friend layout_1">
+                    <span class="f_dp">
+                        <img src="img/FB_IMG_16345763830787095~3.jpg" alt="">
+                    </span>
+                    <span class="f_name">Beeba Oyiza</span>
+                </div>
+                <div class="friend layout_1">
+                    <span class="f_dp">
+                        <img src="img/FB_IMG_16345763830787095~3.jpg" alt="">
+                    </span>
+                    <span class="f_name">Beeba Oyiza</span>
+                </div>
+                <div class="friend layout_1">
+                    <span class="f_dp">
+                        <img src="img/FB_IMG_16345763830787095~3.jpg" alt="">
+                    </span>
+                    <span class="f_name">Beeba Oyiza</span>
+                </div>
+            </div>
+            
+            <div class="notifications">
+                <h2>Notifications</h2>
+                <div class="notes">
+                    <span class="source">from live matches</span>
+                    <p class="note-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt laboriosam a eos aut nam deserunt earum quas officiis vero sit delectus, provident impedit, molestiae libero velit nulla commodi praesentium expedita?
+                    </p>
+                </div>
+                <button class="more">load More</button>
+            </div>
+
+            <div class="friend_list">
+                <h2>My Friends</h2>
+                <div class="friend layout_1">
+                    <span class="f_dp">
+                        <img src="img/FB_IMG_16345763830787095~3.jpg" alt="">
+                    </span>
+                    <span class="f_name">Beeba Oyiza</span>
+                </div>
+
+                <div class="friend layout_1">
+                    <span class="f_dp">
+                        <img src="img/FB_IMG_16345763830787095~3.jpg" alt="">
+                    </span>
+                    <span class="f_name">Muhammed sehu</span>
+                </div>
+
+                <div class="friend layout_1">
+                    <span class="f_dp">
+                        <img src="img/FB_IMG_16345763830787095~3.jpg" alt="">
+                    </span>
+                    <span class="f_name">muhsin</span>
+                </div>
+            </div>
+            
+            <div class="group_list">
+                <h2>My Groups</h2>
+                <div class="friend layout_1">
+                    <span class="f_dp">
+                        <img src="img/FB_IMG_16345763830787095~3.jpg" alt="">
+                    </span>
+                    <span class="f_name">Beeba Oyiza</span>
+                </div>
+            </div>
+            <div class="chat_modal">
+                
+            </div>
+        </section>
+    </main>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
